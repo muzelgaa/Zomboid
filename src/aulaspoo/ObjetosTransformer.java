@@ -52,9 +52,6 @@ public class ObjetosTransformer {
 		System.out.println(carro4.getAno());
 		System.out.println(carro4.getModelo());
 		
-		
-		
-
 	}
 
 }
