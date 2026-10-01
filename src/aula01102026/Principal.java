@@ -6,6 +6,7 @@ public class Principal {
 		
 		Lobo geraldo = new Lobo();
 		Gato ravena = new Gato();
+		Ferrari urus = new Ferrari();
 		
 		geraldo.dormir();
 		geraldo.caminhar();
@@ -20,7 +21,13 @@ public class Principal {
 		ravena.emitirSom();
 		
 		System.out.print("\n");
-
+		
+		urus.ligar();
+		urus.manobrar();
+		urus.engatar();
+		urus.acelerar();
+		urus.frear();
+		urus.desligar();
 	}
 
 }
