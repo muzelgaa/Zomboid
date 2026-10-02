@@ -23,11 +23,15 @@ public class Principal {
 		System.out.print("\n");
 		
 		urus.ligar();
-		urus.manobrar();
 		urus.engatar();
+		urus.manobrar();
 		urus.acelerar();
 		urus.frear();
 		urus.desligar();
+		
+		System.out.println("\n");
+		
+		
 	}
 
 }
