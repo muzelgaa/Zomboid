@@ -5,6 +5,7 @@ public class Principal2 {
 	public static void main(String[] args) {
 		
 		Onibus mercedes = new Onibus("1234", "XB2", "AZUL", 2020);
+		
 		mercedes.ligar();
 		mercedes.acelerar();
 		mercedes.virar();
