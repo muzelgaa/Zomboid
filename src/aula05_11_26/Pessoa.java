@@ -1,0 +1,26 @@
+package aula05_11_26;
+
+public class Pessoa {
+	private String nome;
+	private Coracao coracao; // composição
+
+	public Pessoa(String nome, int coracao) {
+		super();
+		this.nome = nome;
+		this.coracao = new Coracao(coracao);
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public int  getCoracao() {
+		return coracao.getBatimentos();
+	}
+
+
+}
